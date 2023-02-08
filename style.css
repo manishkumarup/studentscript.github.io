@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #ffffff;
+}
+.banner1{
+    padding: 5px;
+    border: 2px dotted rebeccapurple;
+    width: 25%;
+}
+.bannerimage1{
+    max-width: 100%;
+    max-height: 100%;
+}
+.intro{
+    height: fit-content;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.welcomediv{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#textwelcome{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+#textp{
+    font: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.banner2{
+    border: 2px dotted rebeccapurple;
+    width: 25%;
+    margin-right: 10px;
+    justify-self: baseline;
+    margin-left: 200px;
+}
+.bannerimage2{
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.list2{
+    margin-left: 45px;
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.item{
+    font-size: 30px;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.hr2{
+    height: 5px;
+    background-color: whitesmoke;
+    border: none;
+}
+.studymaterial{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-top: 20px;
+
+}
+.covercontainer{
+    justify-content: center;
+    width: 20%;
+    height: 60%;
+    margin: 10px;
+}
+.coverimage{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.pbook{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.smcontainer{
+    display: flex;
+    justify-content: center;
+}

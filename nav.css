@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #ffffff;
+}
+.headercontainer{
+    background-color:#ffffff;
+    justify-content: baseline;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.logodiv{
+    display: flex;
+    height: 55px;
+    width: 20%;
+    padding: 10px;
+}
+.navdiv ul{
+    list-style: none;
+    display:inline-flex;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.searchdiv{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    position:relative; left:5px; top:5px
+}
+a{
+    text-decoration: none;
+    color:#222429;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+a:hover{
+    color: #3481EF;
+}
+a:link{
+    color: black;
+}
+.imagelogo{
+    max-height: 100%;
+    max-width: 100%;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+}
+.search{
+    width: 150px;
+    height: 17px;
+}
+.searchbtn{
+    background-color: #cd4bb3;
+}
+#hr{
+    height: 2px;
+    background-color: whitesmoke;
+    border: none;
+}
+@media screen and (max-width:1400px){
+    .header{
+        display: flex;
+        align-self: center;
+    }
+    .headercontainer{
+        align-self: center;
+        max-width: 90vw;
+        flex-direction: column;
+    }
+    ul{
+        flex-wrap: wrap;
+    }
+    .searchdiv{
+        text-align: center;
+        width: 100%;
+    }
+    a{
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+    .logodiv{
+        align-self: center;
+        width: 80%;
+    }
+    .search{
+        width: 80%;
+    }
+    .searchbtn{
+        width: 20%;
+    }
+    .intro{
+        flex-direction: column;
+    }
+    .banner1{
+        width: 80%;
+        align-self: center;
+    }
+    .welcomediv{
+        width: 80%;
+        align-self: center;
+    }
+    .textwelcome{
+        font-size: 0.5rem;
+    }
+    .textp{
+        font-size: 0.2rem;
+  }
+  .banner2{
+    width: 80%;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .item{
+    font-size: 2rem;
+  }
+  .smcontainer{
+    flex-direction: column;
+  }
+  .covercontainer{
+    align-self: center;
+    width: 80%;
+    border-radius: 10px;
+  }
+  .coverimage{
+    box-shadow: 1px 1px 5px 5px rgb(128, 120, 120);
+  }
+}
